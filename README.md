@@ -1,29 +1,19 @@
-<!-- @file Instructions for subtheming using the CDN Starterkit. -->
-<!-- @defgroup sub_theming_cdn -->
-<!-- @ingroup sub_theming -->
-# CDN Starterkit
+<!-- The readme of the theme. -->
 
-The CDN Starterkit is rather simple to set up. You don't have to do anything
-until you wish to override the default [Drupal Bootstrap] base theme settings
-or provide additional custom CSS.
+# Service_Club_Theme
 
-- [Prerequisite](#prerequisite)
-- [Override Styles](#styles)
-- [Override Settings](#settings)
-- [Override Templates and Theme Functions](#registry)
+This theme is for use with the Blue Max Studios Service Project Alpha System.
+The theme is not representitive of the final product.
 
-## Prerequisite
-Read the @link subtheme Sub-theming @endlink parent topic.
+## Manual Installation instructions
 
-## Override Styles {#styles}
-Open `./THEMENAME/css/style.css` and modify the file to your liking.
+1. Navigate through your system to the themes folder located at workspace/FOLDERNAME/web/themes
+2. Git clone this repository into the folder, placing it within a new folder called service_project_theme
+3. Once this is done access your system website and go to the Appearance Administration tab
+4. Scrolling to the bottom the theme should be there, click install and set as default
+5. Complete
 
-## Override Settings {#settings}
-Please refer to the @link theme_settings Sub-theme Settings @endlink topic.
+## Additional Notes
 
-## Override Templates and Theme Functions {#registry}
-Please refer to the @link registry Theme Registry @endlink topic.
-
-[Drupal Bootstrap]: https://www.drupal.org/project/bootstrap
-[Bootstrap Framework]: https://getbootstrap.com/docs/3.3/
-[jsDelivr CDN]: http://www.jsdelivr.com
+This theme was created using the Drupal Bootstrap theme CDN Starterkit.
+The theme can be found here https://www.drupal.org/project/bootstrap.
